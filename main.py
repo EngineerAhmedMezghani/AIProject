@@ -127,4 +127,5 @@ if __name__ == "__main__":
     plt.grid(True)
     plt.yscale('log') # Log scale helps see convergence better for 0 targets
     plt.savefig('WOA_convergence.png') # Saves the image for your PPT
-    plt.show()
+    print("Graphique sauvegardé dans 'WOA_convergence.png'")
+    
